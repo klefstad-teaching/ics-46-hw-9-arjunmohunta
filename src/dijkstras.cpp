@@ -44,12 +44,14 @@ void print_path(const vector<int>& path, int cost) {
         return;
     }
 
-    // Print the path
+
     for (size_t i = 0; i < path.size(); ++i) {
         cout << path[i];
         if (i < path.size() - 1) {
             cout << " ";
         }
     }
-    cout << "\nTotal cost is " << cost << "\n";
+
+
+    cout << " \nTotal cost is " << cost << "\n";
 }
